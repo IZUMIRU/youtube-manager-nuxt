@@ -1,8 +1,5 @@
 import qs from "qs";
 
-// require('dotenv').config();
-// const {apiKey, authDomain, databaseURL, projectId, storageBucket, messagingSenderId, appId} = process.env;
-
 export class RequestClient {
   constructor(axios, cookies, store) {
     this.axios = axios
